@@ -202,8 +202,8 @@ section.sobre .flex{
 }
 
 .btn-social button{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     border: none;
     background-color: #00FF08;
@@ -265,7 +265,7 @@ section.portifolio .flex{
     opacity: 1;
 }
 
-/* FIM SOBRE */
+/* FIM PORTIFÓLIO */
 
 /* FORMULÁRIO DE CONTATO*/
 
@@ -341,3 +341,97 @@ footer .line-footer p a{
     color: white;
 }
 
+@media screen and (max-width: 1220px) {
+
+    /*cLASSES GERAIS*/
+
+    .flex{
+        flex-direction: column;
+    }
+
+    h2.titulo{
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+    /* HEADER */
+
+    .menu-desktop, .btn-contato{
+        display: none;
+    }
+
+    /* TOPO DO SITE */
+
+    section.topo-do-site{
+        padding: 20px 8%;
+    }
+
+    .topo-do-site h1{
+        font-size: 32px;
+    }
+
+    .topo-do-site .img-topo-site img{
+        width: 100%;
+    }
+
+    section.topo-do-site .flex{
+        gap: 40px;
+    }
+
+    /* ESPECIALIDADES */
+
+    section.sobre{
+        padding: 40px 8%;
+    }
+
+    /* SOBRE */
+
+    section.sobre{
+        padding: 80px 8%;
+    }
+
+    .sobre .txt-sobre h2{
+        font-size: 32px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .btn-social{
+        text-align: center;
+    }
+
+    .img-sobre img{
+        width: 100%;
+    }
+
+    /* Portifólio */
+
+    section.portifolio{
+        padding: 80px 8%;
+    }
+
+    .img-port{
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    section.portifolio .flex{
+        gap: 60px;
+    }
+
+    /* FIM PORTIFÓLIO */
+
+    /* FOOTER */
+
+    footer .flex{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    footer.line-footer{
+        text-align: center;
+    }
+
+
+}
