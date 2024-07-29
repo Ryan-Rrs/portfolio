@@ -41,7 +41,7 @@ button:hover, form .btn-enviar input:hover{
 
 h2.titulo{
     color: white;
-    font-size: 38px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -84,6 +84,7 @@ header nav ul{
 header nav ul li{
     display: inline-block;
     padding: 0 40px;
+    font-size: 25PX;
 }
 
 
@@ -322,6 +323,7 @@ footer{
 
 footer .flex{
     justify-content: space-between;
+    align-items: center;
 }
 
 footer.line-footer{
@@ -333,8 +335,8 @@ footer.line-footer{
 }
 
 footer .line-footer p i{
-    color:#00FF08;
-    font-size: 22px;
+    color:#00ff08;
+    font-size: 23px;
 }
 
 footer .line-footer p a{
@@ -356,7 +358,7 @@ footer .line-footer p a{
 
     /* HEADER */
 
-    .menu-desktop, .btn-contato{
+    .menu-desktop, .btn-contato, .logo{
         display: none;
     }
 
