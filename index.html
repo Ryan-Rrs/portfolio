@@ -75,10 +75,12 @@
 
                     <div class="txt-topo-site">
                         <!-- txt-topo-site -->
-                        <h1>Hi There<span>!</span><span></span></h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates unde ex ab
-                            recusandae perspiciatis non nobis nam, et obcaecati aperiam. Non veritatis aut magni
-                            placeat doloribus in consequatur a laboriosam.</p>
+                        <h1>HI THERE<span>!</span><span></span></h1>
+                        <p>Atualmente, estou iniciando minha jornada no desenvolvimento de sistemas. Durante meus
+                            estudos, desenvolvi uma base sólida em programação, com uma forte identificação com a
+                            linguagem Java. Estou sempre buscando aprender novas tecnologias e linguagens e me adaptar
+                            rapidamente às novidades do setor. Meu objetivo é contribuir para as empresas, entregando
+                            código de alta qualidade e soluções eficazes no desenvolvimento de sistemas.</p>
 
                         <div class="btn-contato">
                             <a href="#">
@@ -185,11 +187,11 @@
 
                 <h2 class="titulo">FALE <span>COMIGO.</span></h2>
 
-                <form action="">
-                    <input type="text" name="" id="" placeholder="Seu Nome:" required>
-                    <input type="text" name="" id="" placeholder="Seu e-mail:" required>
-                    <input type="text" name="" id="" placeholder="Seu Celular:">
-                    <textarea name="" id="" placeholder="Sua Mensagem" required></textarea>
+                <form method="post" action="../portifolio/scripts/send.php">
+                    <input type="text" name="name" id="" placeholder="Seu Nome:" required autocomplete="off">
+                    <input type="text" name="email" id="" placeholder="Seu e-mail:" required autocomplete="off">
+                    <input type="text" name="tel" id="" placeholder="Seu Celular:" autocomplete="off">
+                    <textarea name="text" id="" placeholder="Sua Mensagem" required autocomplete="off"></textarea>
 
                     <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
                 </form>
